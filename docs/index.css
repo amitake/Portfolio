@@ -23,6 +23,17 @@ h1 {
     background-color: rgb(255, 228, 232);
 
 }
+.smoking {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: rgb(255, 228, 232);
+}
+.kinnji {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: rgb(255, 228, 232);
+}
+
 footer {
     font-family: serif;
     font-size: 20px;
