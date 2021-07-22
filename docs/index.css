@@ -27,3 +27,23 @@ footer {
     font-family: serif;
     font-size: 20px;
 }
+#nav {
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    background: #F6EEDF;
+}
+#nav li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+}
+#nav li a {
+    text-decoration: none;
+    color: #F6EEDF;
+    font-weight: bold;
+}
+#nav li a:hover { color: #D63447;}
