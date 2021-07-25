@@ -1,0 +1,62 @@
+body {
+    background-color: #d2d3f6;
+    background-image: url('img/D341FFB1-5EBC-421A-8DE8-97245177F394.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+
+.starter-template {
+    margin: 10px 50px;
+    padding: 5px 15px;
+    background-color: rgb(209, 253, 249);
+}
+.info-template {
+    margin: 10px 50px;
+    padding: 5px 15px;
+    background-color: rgb(244, 249, 217);
+}
+.future-rink {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: rgb(255, 228, 232);
+
+}
+.smoking {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: rgb(255, 228, 232);
+}
+.kinnji {
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: rgb(255, 228, 232);
+}
+
+footer {
+    font-family: serif;
+    font-size: 20px;
+}
+#nav {
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    background: #F6EEDF;
+}
+#nav li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+}
+#nav li a {
+    text-decoration: none;
+    color: #7459fb;
+    font-weight: bold;
+}

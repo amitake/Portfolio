@@ -11,43 +11,67 @@
 
     </head>
     <body>
+        <header class="header">
+            <h1>Portfolio</h1>
+            <nav> 
+                <ul id="nav">
+                    <li><a href="#name">Profile</a></li>
+                    <li><a href="#info">Self-intoroduction</a></li>
+                    <li><a href="#skill">Skill&PJ</a></li>
+                    <li><a href="#sakuhinn">Works</a></li>
+                    
+                </ul>
+            </nav>
         
-        <nav>
-            <ul id="nav">
-                <li><a href="#name">Profile</a></li>
-                <li><a href="#info">infomation</a></li>
-                <li><a href="#sakuhinn">作品</a></li>
-            </ul>
-        </nav>
-        <h1>Portfolio</h1>
+        </header>
+        
         <div class='starter-template' id="name">
+            <u><h2 class="midasi">Profile</h2></u>
             <h3>名前：竹中亜瞳（Ami Takenaka）</h3>
             <ul>
                 <li>生年月日：2001/08/06</li>
                 <li>出身：佐賀県</li>
-                <li>メールアドレス：s2022058@stu.musashino-u.ac.jp</li>
+                <li>所属①：武蔵野大学データサイエンス学部</li>
+                <li>所属②：福原ゼミ・JDC-MUDS project（共同研究PJ）・baby-mosoly PJ</li>
+            </ul>
+        </div>
+        <div class='info-template' id="info">
+            <u><h2 class="midasi">self-intoroduction</h2></u>
+            <ul>
+                <li>趣味：海外ドラマを見ること・知らない街を散策すること</li>
             </ul>
         </div>
 
-        <div class='info-template' id="info">
-            <h2 >infomation</h2>
+        <div class='skill-template' id="skill">
+            <u><h2 class="midasi">Skill&PJ</h2></u>
             <ul>
-                <li>所属①：武蔵野大学データサイエンス学部</li>
-                <li>所属②：福原ゼミ・JDC-MUDS project（共同研究PJ）・baby-mosoly PJ</li>
+                <li>趣味：海外ドラマを見ること・知らない街を散策すること</li>
                 <li>スキル：python＞＞画像認識・機械学習（CNN/LSTM etc..）HTML/CSS/PostgreSQL</li>
                 <li>最近取り組んでるプロジェクト：共同研究（一件）・ステレオカメラから赤ちゃんの身体情報を抽出するPJ</li>
             </ul>
         </div>
-        <div class='future-rink' id="sakuhinn">
-            <h2 ></h2>
-            <h3>1年終了時の未来創造アウトプット</h3>
-            <p>　　画像をクリックするとpdf資料に飛びます</p>
-            <a class='future-rink' href='https://drive.google.com/file/d/1fSVZTVyCZNq4Z0lwM_tGTyu4TwkzE6zA/view' target="_blank"><img class="img-responsive img-thumbnail" src='img/future_1.png' alt='1年次未来創造のアウトプット' title='筋トレアシスト' width="50%"></a>
+        <div class='works' id="sakuhinn">
+            <u><h2 class="midasi">Works</h2></u>
+            <h3>姿勢推定を用いた筋肉トレーニング改善アシストとトレーニング管理システム</h3>
+            <p>python言語でOpenPoseを用いて骨格検出を行い、その骨格情報を基に筋肉トレーニングの反復回数（レップ数）や体の角度を算出し、ユーザのトレーニング内容を可視化を行った.
+                これ筋肉トレーニングの質の向上・怪我や痛みの防止・やる気の継続をアシストする目的である. <br></p>
+            <p>＊画像をクリックで資料をみる<br></p>
+            <a class='future' href='https://drive.google.com/file/d/1fSVZTVyCZNq4Z0lwM_tGTyu4TwkzE6zA/view' target="_blank"><img class="img-responsive img-thumbnail" src='img/future_1.png' alt='1年次未来創造のアウトプット' title='筋トレアシスト' width="50%"></a>
             <h3>喫煙抑制</h3>
+            <p>Processingとcsvを用いて喫煙年数毎の死亡年齢を性別で可視化したものである. 喫煙者の祖父が禁煙を促されるように、喫煙年数が長くなるほど寿命が短くなる傾向を使って
+                喫煙年数が長くなるほど大音量の心音を流し恐怖感を与えている.<br></p>
             <video class="smoking" poster="./img/img_68d7464c4be450c89dc8ad95c1c2f88d208564.jpg" src="./img/smoking.mov" width="50%" height="50%" controls></video>
-            <H3>フーリエ変換による近似></H3>
+            <H3>フーリエ変換による近似</H3>
+            <p>python言語を用いてフーリエ級数展開を行う関数を作り、nが増加する時のアニメーションを作成した. nが増加するにつれて、近似を行う.<br></p>
             <video class="kinnji" src="./img/anime5-2.mp4" width="50%" height="50%" controls></video>
             
+        </div>
+        <div class='contact'>
+            <ul>
+                <li ><img src="./img/icon/mail_icon.png" id="icon">E-mail：s2022058@stu.musashino-u.ac.jp</li>
+                <li ><img src="./img/icon/GitHub_icon.png" id="icon">GituHub：<a href="https://github.com/amitake">https://github.com/amitake</a></li>
+                <li ><img src="./img/icon/Twitter_icon.png" id="icon">Twitter：<a href="https://twitter.com/ami86_dsds">@ami86_dsds</a></li>
+            </ul>
         </div>
         
         <footer>©2021 Ami Takenaka</footer>
