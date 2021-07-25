@@ -2,7 +2,7 @@ body {
     background-color: #d2d3f6;
     background-image: url('img/D341FFB1-5EBC-421A-8DE8-97245177F394.jpg');
     background-size: cover;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 
 
@@ -11,7 +11,7 @@ body {
     margin: 100px 50px 0px;
     padding: 5px 15px;
     background-color: rgb(209, 253, 249,0.7);
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .starter-template li {
     list-style: none;
@@ -20,7 +20,7 @@ body {
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgba(218, 224, 248, 0.7);
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .info-template li {
     list-style: none;
@@ -30,7 +30,7 @@ body {
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgba(244, 249, 217, 0.663);
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .skill-template li {
     list-style: none;
@@ -39,24 +39,24 @@ body {
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgb(255, 228, 232, 0.7);
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 
 }
 .future {
     margin: 10px;
     padding: 5px 15px;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .smoking {
     margin: 10px;
     padding: 5px 15px;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 
 .kinnji {
     margin: 10px;
     padding: 5px 15px;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 
 footer {
@@ -66,7 +66,7 @@ footer {
     background-color: rgba(255, 255, 255, 0.861);
     font-family: serif;
     font-size: 20px;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .header {
     position: fixed;
@@ -81,7 +81,7 @@ footer {
     margin: 10px;
     font-family: fantasy;
     font-size: 40px;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
     vertical-align: middle;
 }
 #nav {
@@ -90,24 +90,24 @@ footer {
     list-style: none;
     width: 100%;
     margin: 10px ;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 #nav li {
     display: inline-block;
     text-align: center;
     line-height: 50px;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 #nav li a {
     color: #596ffb;
     font-weight: bold;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .contact {
     margin: 10px ;
     padding: 10px 15px;
     background-color: rgba(216, 246, 208, 0.7);
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
 .contact li { 
     list-style: none;
@@ -115,5 +115,5 @@ footer {
 #icon {
     height: 40px;
     width: auto;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
 }
