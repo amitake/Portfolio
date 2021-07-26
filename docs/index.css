@@ -5,10 +5,8 @@ body {
     /* border: solid 3px #000000; */
 }
 
-
-
 .starter-template {
-    margin: 100px 50px 0px;
+    margin: auto 50px 0px;
     padding: 5px 15px;
     background-color: rgb(209, 253, 249,0.7);
     /* border: solid 3px #000000; */
@@ -72,7 +70,7 @@ footer {
     position: fixed;
     overflow: hidden;
     background: #ffffff;
-    border: solid 3px #000000;
+    /* border: solid 3px #000000; */
     width: 100%;
     justify-content: space-between;
     display: flex;
@@ -94,6 +92,7 @@ footer {
 }
 #nav li {
     display: inline-block;
+
     text-align: center;
     line-height: 50px;
     /* border: solid 3px #000000; */
