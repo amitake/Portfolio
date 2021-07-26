@@ -1,4 +1,5 @@
 body {
+    padding-top: 100px;
     background-color: #d2d3f6;
     background-image: url('img/D341FFB1-5EBC-421A-8DE8-97245177F394.jpg');
     background-size: cover;
@@ -6,6 +7,7 @@ body {
 }
 
 .starter-template {
+    
     margin: auto 50px 0px;
     padding: 5px 15px;
     background-color: rgb(209, 253, 249,0.7);
@@ -74,6 +76,10 @@ footer {
     width: 100%;
     justify-content: space-between;
     display: flex;
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    align-items: center; /* 中の要素を上下中央に並べる */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
 }
 .header h1 {
     margin: 10px;
